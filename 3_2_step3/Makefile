@@ -1,4 +1,4 @@
-targets = tetris_code3
+targets = tetris_code3 tetris2
 CFLAGS = 
 LDFLAGS = 
 
