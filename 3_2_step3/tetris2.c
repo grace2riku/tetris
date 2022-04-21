@@ -29,14 +29,17 @@ int main(int argc, char* argv[])
     int y;
 
     clearScreen();  // 画面クリア
-    setBackColor(BLUE); // 文字色設定
-    setCharColor(YELLOW);   // 文字の背景色設定
+    setBackColor(BLUE);     // 文字背景色設定
+    setCharColor(YELLOW);   // 文字色設定
 
-    for (y = 1; y < 23; y++)    // 1行ずつ繰り返す(23回)
+    for (y = 1; y < 12; y++)
     {
         setPosition(5, y);
         printf("$");   fflush(stdout);
-        wait(500);
+        setBackColor(DEFAULT);  // 文字背景色を元に戻す
+        clearScreen();
+        setBackColor(BLUE);     // 文字背景色設定
+        wait(300);
     }
 
     setBackColor(DEFAULT);  // 文字背景色を元に戻す
