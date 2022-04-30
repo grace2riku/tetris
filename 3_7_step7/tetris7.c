@@ -308,9 +308,11 @@ int main(int argc, char* argv[])
                         break;
                     }
                 }    
-            } else {
-                reset();
-                exit(1);
+            } else {    // 矢印キー以外の場合
+//                reset();
+//                exit(1);
+                x = 5;
+                y = 10;
             }
             count++;
             printBlock(block, x, y);
