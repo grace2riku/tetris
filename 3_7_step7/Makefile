@@ -1,4 +1,4 @@
-targets = code26_move_left_right
+targets = code26_move_left_right tetris7
 CFLAGS = 
 LDFLAGS = 
 
