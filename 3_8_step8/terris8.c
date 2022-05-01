@@ -284,7 +284,7 @@ int main(int argc, char* argv[])
     x = 5;
     y = 0;
 
-    thold = 0.5;    // 落下の時間感覚
+    thold = 0.5;    // 落下の時間間隔
     printBlock(block, x, y); // 初期表示
     gettimeofday(&start_time, NULL);
     pre_time = start_time;  // 前回落下時刻 最初は開始時刻
