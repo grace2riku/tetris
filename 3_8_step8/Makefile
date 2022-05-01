@@ -1,4 +1,4 @@
-targets = code28
+targets = code28 terris8
 CFLAGS = 
 LDFLAGS = 
 
