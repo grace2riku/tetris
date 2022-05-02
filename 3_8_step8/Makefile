@@ -1,4 +1,4 @@
-targets = code28 terris8
+targets = code28 tetris8
 CFLAGS = 
 LDFLAGS = 
 
