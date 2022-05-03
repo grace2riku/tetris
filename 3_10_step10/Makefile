@@ -1,4 +1,4 @@
-targets = code33
+targets = code33 tetrisA
 CFLAGS = 
 LDFLAGS = 
 
